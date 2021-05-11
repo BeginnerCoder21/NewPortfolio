@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<style media="screen">
+  html{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #111111;
+  }
+  .rect{
+    position: absolute;
+    width: 341px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    clip-path: polygon(0 0, 45% 0, 90% 100%, 0% 100%);
+    background: #F95B11;
+  }
+  .img{
+    position: absolute;
+    width: 425px;
+    height: 660px;
+    left: 35px;
+    top: 32px;
+    background: black;
+    border-radius: 17px;
+  }
+  .about{
+    position: absolute;
+    width: 165px;
+    height: 25px;
+    left: 576px;
+    top: 235px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+  .desig{
+    position: absolute;
+    width: 438px;
+    height: 66px;
+    left: 576px;
+    top: 276px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+  }
+  .desig span{
+    color: #F95B11;
+  }
+  .intro{
+    position: absolute;
+    width: 576px;
+    height: 84px;
+    left: 578px;
+    top: 335px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  button{
+    position: absolute;
+    width: 198px;
+    height: 44px;
+    left: 578px;
+    top: 442px;
+    background: #FB5B0F;
+    border-radius: 24.5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #FB5B0F;
+  }
+  nav{
+    position: absolute;
+    width: 51px;
+    height: 308px;
+    left: 1200px;
+    top: 130px;
+    font-family: Roboto;
+  }
+  nav ul{
+    position: absolute;
+    list-style-type: none;
+  }
+  nav li{
+    cursor: pointer;
+    list-style-type: none;
+    width: 48px;
+    height: 47px;
+    left: 1209px;
+    top: 205px;
+    border-radius: 50%;
+    background: #2B292A;
+    margin-top: 20px;
+  }
+  nav li a{
+    cursor: pointer;
+    display: none;
+    text-decoration: none;
+  }
+  nav li a span{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+  }
+  i{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    float: right;
+    position: absolute;
+    font-size: 15px;
+  }
+  nav a:hover, li:hover{
+    width: 150px;
+    height: 49px;
+    display: block;
+    right: 1107px;
+    background: #FB5B0F;
+    border-radius: 24.5px;
+  }
+  nav li a:hover span{
+    display: block;
+  }
+  nav li:hover a span{
+    display: block;
+  }
+</style>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <div class="rect">
+
+    </div>
+    <div class="img">
+
+    </div>
+    <div class="content">
+      <div class="about">
+        HI THERE !!
+      </div>
+      <div class="desig">
+        I’M A <span> WEB DESIGNER</span>
+      </div>
+      <div class="intro">
+        I am a hardworking and ambitious individual with a great passion. I am seeing a part-time position in the industry in which I can put into
+        practice my knowledge and experience, ultimately benefiting the organization that I work for.
+      </div>
+    </div>
+    <button type="submit" name="button">MORE ABOUT ME</button>
+    <div class="connect">
+      <nav>
+        <ul>
+          <li><a href="#"><span>HOME</span></a><i class="material-icons" >home</i></li>
+          <li><a href="about.html"><span>ABOUT ME</span></a><i class="material-icons" >person</i></li>
+          <li><a href="#"><span>EDUCATION</span></a><i class="material-icons" >school</i></li>
+          <li><a href="#"><span>SKILLS</span></a><i class="material-icons" >military_tech</i></li>
+          <li><a href="#"><span>PROJECTS</span></a><i class="material-icons" >work</i></li>
+          <li><a href="#"><span>CONTACT</span></a><i class="material-icons" >call</i></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+</html>
