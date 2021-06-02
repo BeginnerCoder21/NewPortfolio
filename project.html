@@ -24,64 +24,69 @@
     color: #FFFFFF;
   }
   .head span{
-    color: #F95B11;
+    color: #1162F9;
+  }
+  .connect{
+    width: 50px;
+    top: 130px;
+    font-size: 15px;
+    left: 1200px;
+    font-family: Roboto;
+    position: fixed;
   }
   nav{
+    font-family: Roboto;
     position: fixed;
-    width: 51px;
-    height: 308px;
+    width: 50px;
     left: 1100px;
     top: 130px;
-    font-family: Roboto;
-  }
-  nav ul{
-    position: absolute;
-    list-style-type: none;
+    font-size: 15px;
   }
   nav li{
-    cursor: pointer;
-    list-style-type: none;
-    width: 48px;
-    height: 47px;
-    left: 1209px;
-    top: 205px;
-    border-radius: 50%;
-    background: #2B292A;
-    margin-top: 20px;
+    height: 48px;
+    font-size: 15px;
+    position: relative;
+    list-style: none;
   }
   nav li a{
     cursor: pointer;
-    display: none;
+    color: white;
     text-decoration: none;
+    display: block;
+    background: #2B292A;
+    margin-top: 20px;
+    height: 48px;
+    width: 47px;
+    border-radius: 50%;
+    line-height: 60px;
+    padding-left: 25%;
+  }
+  nav i{
+    color: white;
+    font-size: 16px;
+  }
+  nav li a i{
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    top: 17px;
+    left: 20px;
   }
   nav li a span{
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 15px;
-    color: white;
+    display: none;
+    font-size: 16px;
   }
-  i{
-    cursor: pointer;
-    margin-left: 10px;
-    margin-top: 10px;
-    color: white;
-    float: right;
-    position: absolute;
-    font-size: 15px;
-  }
-  nav li:hover{
-    width: 150px;
+  nav a:hover, li:hover{
+    width: 130px;
     height: 49px;
     display: block;
-    right: 1107px;
-    background: #FB5B0F;
+    background: #1162F9;
     border-radius: 24.5px;
   }
-  nav li a:hover span{
+  ul li a:hover span{
     display: block;
-  }
-  nav li:hover a span{
-    display: block;
+    float: left;
+    margin-left: 20px;
   }
   .grid-container{
     position: absolute;
@@ -131,6 +136,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="head">
@@ -210,12 +216,24 @@
     <div class="connect">
       <nav>
         <ul>
-          <li><a href="#"><span>HOME</span></a><i class="material-icons" >home</i></li>
-          <li><a href="#"><span>ABOUT ME</span></a><i class="material-icons" >person</i></li>
-          <li><a href="#"><span>QUALIFICATION</span></a><i class="material-icons" >school</i></li>
-          <li><a href="#"><span>SKILLS</span></a><i class="material-icons" >military_tech</i></li>
-          <li><a href="#"><span>PROJECTS</span></a><i class="material-icons" >work</i></li>
-          <li><a href="#"><span>CONTACT</span></a><i class="material-icons" >call</i></li>
+          <li><a href="portfolio.html">
+            <i class="fa fa-home"></i> <span>HOME</span>
+          </a></li>
+          <li><a href="about.html">
+            <i class="fa fa-user"></i> <span>ABOUT</span>
+          </a></li>
+          <li><a href="Qualifications.html">
+            <i class="fa fa-graduation-cap"></i> <span>EDUCATION</span>
+          </a></li>
+          <li><a href="skill.html">
+            <i class="fa fa-trophy"></i> <span>SKILLS</span>
+          </a></li>
+          <li><a href="project.html">
+            <i class="fa fa-briefcase"></i> <span>PROJECTS</span>
+          </a></li>
+          <li><a href="contact.html">
+            <i class="fa fa-phone"></i> <span>CONTACT</span>
+          </a></li>
         </ul>
       </nav>
     </div>
